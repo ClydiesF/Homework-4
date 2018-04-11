@@ -1,0 +1,28 @@
+/** STYLING FOR THE TIC TAC TOE TABLE **/ 
+h1 {
+    text-align: center
+}
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.topRow1, .topRow2, .topRow3{
+    border-bottom: solid black;
+}
+
+.midRow1, .midRow2, .midRow3{
+    border-bottom: solid black;
+}
+
+.topRow2, .midRow2, .bottomRow2{
+    border-right: solid black;
+    border-left: solid black;
+}
